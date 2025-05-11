@@ -11,7 +11,7 @@ app.use('/', schoolRoutes); // API routes
 
 // Add this simple GET route for the root path
 app.get('/', (req, res) => {
-  res.send('Welcome to the School Management API!');
+  res.send('Welcome to the School Management API!, created by one and only RAASHIKA DON AND ROCKSTAR!');
 });
 
 const PORT = process.env.PORT || 3000;
